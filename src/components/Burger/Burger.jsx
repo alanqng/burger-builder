@@ -11,7 +11,7 @@ const burger = props => {
       });
     })
     .flat();
-  console.log(transformedIngredients);
+    
   if (transformedIngredients.length === 0) {
     transformedIngredients = <p>Select Ingredients</p>;
   }
