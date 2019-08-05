@@ -141,4 +141,4 @@ const BurgerBuilder = () => {
   );
 };
 
-export default withErrorHandler(BurgerBuilder);
+export default withErrorHandler(BurgerBuilder, axios);
